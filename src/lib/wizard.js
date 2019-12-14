@@ -1,7 +1,7 @@
 import http from './http'
 
 const WIZARD =
-  "http://www.mocky.io/v2/5df4e46b3000005400111bea";
+  "http://www.mocky.io/v2/5df4e6da3000005400111bf1";
 
 const load = () => {
   return http
