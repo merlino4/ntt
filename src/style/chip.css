@@ -1,0 +1,32 @@
+.chip-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .chip {
+    height: 24px;
+    width: 84px;
+    background-color: #e9e9e9;
+    border-radius: 12px;
+    font-size: 12px;
+    text-align: center;
+    color: #9b9b9b;
+    margin-right: 4px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  
+  .chip.active {
+    background-color: #66cc33;
+    color: white;
+  }
+  @media (min-width: 900px) {
+    .chip-container {
+      justify-content: center;
+    }
+  }
+  @media (min-width: 600px) {
+    .chip-container {
+      justify-content: center;
+    }
+  }

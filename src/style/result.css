@@ -1,0 +1,174 @@
+
+.contentResult{
+    display: flex;
+    flex-direction: row;
+}
+ .redirectButton{
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #66cc33;
+    padding-bottom: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+.redirectButton a{
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #66cc33;
+    text-transform: uppercase;
+    text-decoration:none; 
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.redirectButton:hover{
+    border: #66cc33 1px solid;
+}
+.resultTitle h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+@media (max-width: 600px) {
+    .finalCard h1{
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .results{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    }
+    .contentResult{
+        display: flex;
+        flex-direction: column;
+    }
+    .results img{
+        width: 315px;
+        height: 322px;
+    }
+    .results h2{
+       text-align: center;
+       font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.11;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    .results p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #000000;
+        text-transform: uppercase;
+     }
+     .results a{
+        text-align: center;
+     }
+    body{
+        background-color: #f8f8f8;
+    }
+    .resultPhoto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .redirectButton{
+        width: 345px;
+        height: 50px;
+        background-color: #66cc33;
+        margin: auto;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .redirectButton a{
+        color: white;
+    }
+   
+ 
+  }
+  @media (min-width: 601px) {
+    .finalCard h1{
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .results{
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    }
+    .results img{
+        width: 182px;
+    height: 182px;
+    }
+    .results h2{
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.09;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .results p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #000000;
+        text-transform: uppercase;
+     }
+     .results a{
+        text-align: center;
+     }
+    body{
+        background-color: #f8f8f8;
+    }
+    .resultPhoto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+  
+  }

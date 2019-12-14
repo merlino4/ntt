@@ -1,0 +1,17 @@
+.button {
+    font-family: LeroyMerlinBold;
+    width: 376px;
+    height: 60px;
+    background-color: #66cc33;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+  }
+  
+  .button.disabled {
+    background-color: transparent;
+    border: solid 1px #9b9b9b;
+    color: #9b9b9b;
+  }
