@@ -1,7 +1,7 @@
 import http from './http'
 
 const STORES =
-      "https://mctsuite.it.nttdata-emea.com/preview/tag_ntt_project_work/stores.json";
+      "http://www.mocky.io/v2/5df4e4343000006800111be9";
 
       
       const load = () => {

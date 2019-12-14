@@ -1,7 +1,7 @@
 import http from './http'
 
 const WIZARD =
-  "https://mctsuite.it.nttdata-emea.com/preview/tag_ntt_project_work/wizard_config.json";
+  "http://www.mocky.io/v2/5df4e46b3000005400111bea";
 
 const load = () => {
   return http
